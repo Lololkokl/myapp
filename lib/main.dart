@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
         // state is not lost during the reload. To reset the state, use hot
         // restart instead.
         //
+        // jansen
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -49,6 +50,7 @@ class MyHomePage extends StatefulWidget {
   // always marked "final".
 
   final String title;
+  final String jansen;
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
